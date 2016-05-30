@@ -36,6 +36,24 @@ background:white;
 color:darkgreen;
 font-weight:bold;
 }
+#gnav div.img{
+  display:table-cell;
+  vertical-align:middle;
+  background:url(../img/css_sprite.png)no-repeat;
+  width:55px;
+  height:46px;
+}
+#gnav div.text{
+  display:table-cell;
+  vertical-align:middle;
+  padding:10px 5px;
+}
+div.img#home{background-position:0 0px;}
+div.img#content1{background-position:0 -46px;}
+div.img#content2{background-position:0 -92px;}
+div.img#help{background-position:0 -138px;}
+div.img#faq{background-position:0 -184px;}
+
 
 
 #gnav li{

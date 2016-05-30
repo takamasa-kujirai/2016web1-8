@@ -1,0 +1,60 @@
+@charset "utf-8";
+
+body{
+background-color:mediumaquamarine;
+}
+#logo ul{
+overflow:hidden;
+}
+#logo li{
+display:table-cell;
+vertical-align:middle;
+padding:0 10px;
+list-style-type:none;
+}
+#logo img{
+width:100px;
+}
+
+#gnav ul{
+overflow:hidden;
+}
+#gnav a{
+display:block;
+padding:10px 0;
+text-align:center;
+text-decoration:none;
+background:darkgreen;
+color:white;
+}
+#gnav a:hover{
+background:lightgreen;
+color:black;
+}
+#gnav a.selected{
+background:white;
+color:darkgreen;
+font-weight:bold;
+}
+
+
+#gnav li{
+float: left;
+width:156px;
+border-right:white 1px solid;
+list-style-type:none;
+}
+#gnav li:first-child{
+border-left:white 1px solid;
+}
+
+.breadcrumbs li{
+display: inline;
+list-style-type:none;
+}
+.breadcrumbs li:before{
+content:">";
+}
+.breadcrumbs li:first-child:before{
+content:"";
+}
